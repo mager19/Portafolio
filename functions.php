@@ -116,6 +116,8 @@ function wiltonwings_scripts() {
 	wp_enqueue_script( 'wiltonwings-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'bootstrapjs', get_template_directory_uri() . '/js/bootstrap.min.js', array(), false, 'all' );
+	wp_enqueue_script( 'scroll', get_template_directory_uri() . '/js/jquery-scrolltofixed-min.js', array(), true, 'all' );
+	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', array(), true, 'all' );
 
 
 	wp_enqueue_script( 'wiltonwings-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );

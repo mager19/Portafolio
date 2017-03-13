@@ -40,21 +40,22 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1  header__contenido">
-				<h3>
+				
 				<?php 
 
 					$args = array('post_type' => 'acercademi', 'post_per_page' => '1');
 					$loop = new WP_Query($args);
 
 					if ( $loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post(); ?>
-						<?php the_content();?>
+						<?php $descripcion = get_field( "descripcion" ); ?>
+						<h3><?php echo $descripcion;?></h3>
 					<?php endwhile; ?>
 					<!-- post navigation -->
 					<?php else: ?>
 					<!-- no posts found -->
 					<?php endif; ?>
 					<?php wp_reset_query(); ?>				
-				</h3>
+				
 				<a href="#" class="boton boton__header">Contact Me!</a>
 			</div>
 		</div>

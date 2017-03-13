@@ -844,6 +844,69 @@ object {
 	text-align: center;
 }
 
+/*******Icons*********/
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('https://i.icomoon.io/public/temp/61dd957289/UntitledProject/icomoon.eot?12g7do');
+  src:  url('https://i.icomoon.io/public/temp/61dd957289/UntitledProject/icomoon.eot?12g7do#iefix') format('embedded-opentype'),
+    url('https://i.icomoon.io/public/temp/61dd957289/UntitledProject/icomoon.ttf?12g7do') format('truetype'),
+    url('https://i.icomoon.io/public/temp/61dd957289/UntitledProject/icomoon.woff?12g7do') format('woff'),
+    url('https://i.icomoon.io/public/temp/61dd957289/UntitledProject/icomoon.svg?12g7do#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-medium:before {
+  content: "\e901";
+}
+.icon-home:before {
+  content: "\e900";
+}
+.icon-podcast:before {
+  content: "\e91c";
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-rss:before {
+  content: "\ea9b";
+}
+.icon-behance:before {
+  content: "\eaa8";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-html-five:before {
+  content: "\eae4";
+}
+
+
 /*Estilos Propios*/
 
 
@@ -872,7 +935,7 @@ header h1{
 header h2{
 	color:#2ec4b6;
 	font-size: 1.2em;
-	margin-top: 1px;
+	margin-top: -5px;
 }
 
 header h3{
@@ -918,12 +981,12 @@ nav ul li a:visited{
 	padding: 15% 0;
 }
 
-.header__contenido h2{
+.header__contenido h3{
 	font-size: 3.5em;
 	margin-bottom: 1em;
 }
 
-.header__contenido h2 span{
+.header__contenido h3 span{
 	color:#2EC4B6;
 }
 
@@ -931,10 +994,11 @@ nav ul li a:visited{
 	border-radius: 5px;
 	padding: 0.5em 1em;
 	font-size: 1.3em;	
+	
 }
 
 .boton__header{
-	background-color: #2EC4B6;
+	background-color: #2EC2B6;
 	box-shadow: 0px 3px 0px #037167;
 	color:#f9f9f9;
 	display: block;
@@ -943,6 +1007,9 @@ nav ul li a:visited{
     -o-transition: all linear .5s;
     transition: all linear .5s;
     margin-top: 1em;
+    margin: 0 auto;
+    width: 20%;
+
 }
 
 .boton__header:hover{
@@ -951,3 +1018,51 @@ nav ul li a:visited{
 	color:#f9f9f9;
 	text-decoration: none;
 }
+
+/*social stick*/
+
+.social__stick{
+	background-color: #2ec4b6;
+}
+
+.social__stick__item{
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+.social__stick__item:hover {
+	background-color: #037167;
+}
+
+.social__stick__item a{
+	color: #f9f9f9;
+}
+
+.social__stick__item a i{
+	margin-right: 10px;
+}
+
+.social__stick__item a:hover {
+	color: #f9f9f9;
+	text-decoration: none;
+}
+
+.imagen1{
+	background-size: cover;
+	background-position: center center;
+	height: 10em;
+}
+
+.collage {
+	padding: 6px 2px;
+	
+}
+
+.imagen__collage{
+	background-size: cover;
+	background-position: center center;
+	height: 15em;
+	margin-top: 10px;
+	margin-bottom: 1em;
+}
+
