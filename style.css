@@ -915,6 +915,10 @@ body{
 	font-size: 16px;
 }
 
+.desactivado{
+	opacity: 0.2;
+}
+
 .contenedor{
 	padding: 5em 0;
 }
@@ -1066,3 +1070,69 @@ nav ul li a:visited{
 	margin-bottom: 1em;
 }
 
+/*Header newsletter*/
+
+.header__newsletter{
+	background: url('https://images.pexels.com/photos/159299/graphic-design-studio-tracfone-programming-html-159299.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb') center center no-repeat;
+  	background-size: cover;
+	font-family: 'Hind', sans-serif;
+	min-height: 300px;
+	padding-top: 1.5em;
+	text-align: center;
+	width: 100%;
+}
+
+
+.header__newsletter:before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+	opacity: .7; 
+	height: 332px;
+}
+
+.header__contenido__newsletter h3{
+	color:#fff;
+	font-size: 4em;
+	margin-top: 0.3em;
+}
+
+.header__contenido__newsletter p{
+	color:#fff;
+	font-size: 1.2em;
+	margin-bottom: 2em;	
+}
+
+.header__contenido__newsletter a{
+	background-color: #2EC4B6;
+	border-radius: 5px;
+	color:#fff;
+	font-size: 1.2em;
+	padding: 0.5em 2em;
+	margin-top:15%;
+	text-align: center;
+}
+
+.header__contenido__newsletter a:hover{
+	text-decoration: none;
+}
+
+.newsletter{
+	margin-top: 3.5em;
+}
+
+.newsletter__item img{
+	border-radius: 3px;
+	margin-bottom: 5px;
+}
+
+.newsletter__item h3{
+	color:#2ec4b6;
+	font-size: 1.8em;
+	margin-top: 10px;
+	text-align: center;
+}
