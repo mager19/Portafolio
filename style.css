@@ -1073,8 +1073,7 @@ nav ul li a:visited{
 /*Header newsletter*/
 
 .header__newsletter{
-	background: url('https://images.pexels.com/photos/159299/graphic-design-studio-tracfone-programming-html-159299.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb') center center no-repeat;
-  	background-size: cover;
+  	background-position: center;
 	font-family: 'Hind', sans-serif;
 	min-height: 300px;
 	padding-top: 1.5em;
@@ -1125,6 +1124,11 @@ nav ul li a:visited{
 	margin-top: 3.5em;
 }
 
+.newsletter__item {
+	border-bottom:1px solid #ccc;
+	padding-bottom: 2em;
+}
+
 .newsletter__item img{
 	border-radius: 3px;
 	margin-bottom: 5px;
@@ -1134,5 +1138,38 @@ nav ul li a:visited{
 	color:#2ec4b6;
 	font-size: 1.8em;
 	margin-top: 10px;
+	text-align: center;
+}
+
+.newsletter__item p{
+	color:#4d4d4d;
+	font-size: 1.1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.newsletter__item a{
+	color:#E6A032;
+}
+
+.anteriores{
+	margin:2em 0;
+}
+
+.anteriores .newsletter__item{
+	margin-top: 2em;
+}
+
+.semanas__anteriores {
+	margin:2em 0;
+}
+
+.semanas__anteriores .newsletter__item{
+	border-bottom: 0px;
+	margin-top: 2em;
+}
+
+
+.semanas__anteriores .newsletter__item{
 	text-align: center;
 }

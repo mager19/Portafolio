@@ -21,7 +21,7 @@
 
 <body <?php body_class(); ?>>
 <!-- Header -->
-<header class="header__newsletter">
+<header class="header__newsletter"  style="background-image: url(<?php echo get_template_directory_uri() ?>/img/background-newsletter.jpeg);">
 	<!-- End Nav -->
 	<div class="container">
 		<div class="row">

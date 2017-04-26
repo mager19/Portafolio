@@ -107,7 +107,7 @@ add_action( 'widgets_init', 'wiltonwings_widgets_init' );
  * Enqueue scripts and styles.
  */
 function wiltonwings_scripts() {
-	wp_enqueue_style( 'wiltonwings-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'portafolio-style', get_stylesheet_uri() );
 
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
 	wp_enqueue_style( $handle, $src, $deps, $ver, $media );

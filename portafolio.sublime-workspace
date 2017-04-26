@@ -1,0 +1,1022 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"get_template",
+				"get_template_directory_uri"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"co",
+				"contain"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"margni",
+				"margin-bottom"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"bakc",
+				"background-color"
+			],
+			[
+				"the_ti",
+				"the_title"
+			],
+			[
+				"wp_enque",
+				"wp_enqueue_style"
+			],
+			[
+				"paddon",
+				"padding-top"
+			],
+			[
+				"input",
+				"input--large"
+			],
+			[
+				"marign",
+				"margin-top"
+			],
+			[
+				"margn",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"add_setting",
+				"add_settings_field"
+			],
+			[
+				"add_se",
+				"add_settings_section"
+			],
+			[
+				"border",
+				"border-top-left-radius"
+			],
+			[
+				"border-lef",
+				"border-top-left-radius"
+			],
+			[
+				"get_tempal",
+				"get_template_directory_uri"
+			],
+			[
+				"get_temp",
+				"get_template_directory_uri"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"text-a",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "newsletter.php",
+			"settings":
+			{
+				"buffer_size": 4191,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 19515,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 428,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 5033,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 177.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"fake",
+				"Snippet: fakeimg"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Activation"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 442.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/I/xampp/htdocs/portafolio/wp-content/themes/portafolio",
+		"/I/xampp/htdocs/portafolio/wp-content/themes/portafolio/template-parts"
+	],
+	"file_history":
+	[
+		"/I/xampp/htdocs/portafolio/wp-content/themes/portafolio/index.php",
+		"/I/xampp/htdocs/portafolio/wp-content/themes/portafolio/template-parts/header-newsletter.php",
+		"/I/xampp/htdocs/portafolio/wp-content/themes/portafolio/page.php",
+		"/E/Finalizados/Themes mios/Easy&Clean/header.php",
+		"/E/Finalizados/Themes mios/Easy&Clean/index.php",
+		"/E/Finalizados/Themes mios/Easy&Clean/single.php",
+		"/E/Dropbox/MIS DESARROLLOS/wp1030/workspace/wp-content/themes/wp1030-theme/header.php",
+		"/E/Dropbox/MIS DESARROLLOS/wp1030/workspace/wp-content/themes/wp1030-theme/index.php",
+		"/E/Dropbox/MIS DESARROLLOS/wp1030/workspace/wp-content/themes/wp1030-theme/page.php",
+		"/E/Dropbox/MIS DESARROLLOS/wp1030/workspace/wp-content/themes/wp1030-theme/single.php",
+		"/I/xampp/htdocs/portafolio/wp-content/themes/portafolio/header.php",
+		"/I/xampp/htdocs/fundacion/wp-content/themes/theme-fundacion/header.php",
+		"/I/xampp/htdocs/fundacion/wp-content/themes/theme-fundacion/index.php",
+		"/E/Dropbox/MIS DESARROLLOS/wp1030/workspace/wp-content/themes/wp1030-theme/template-privado.php",
+		"/E/Dropbox/MIS DESARROLLOS/wp1030/workspace/wp-content/themes/wp1030-theme/single-libros.php",
+		"/E/Dropbox/MIS DESARROLLOS/wp1030/workspace/wp-content/plugins/wp1030-libros/wp1030-libros.php",
+		"/E/Dropbox/MIS DESARROLLOS/wp1030/workspace/wp-content/plugins/wp1030-libros/index.php",
+		"/E/desarrollo/Dizque Python/piedrapapeltijera.py",
+		"/I/Nos/resources/views/company/companySelect.blade.php",
+		"/I/Nos/public/css/style.css",
+		"/I/Nos/resources/views/diagram/index.blade.php",
+		"/I/Nos/resources/views/engineer_card/index.blade.php",
+		"/I/Nos/resources/views/layouts/engineerCardsDashboard.blade.php",
+		"/I/Nos/resources/views/layouts/diagramDashboard.blade.php",
+		"/I/Nos/resources/views/layouts/includes/header.blade.php",
+		"/I/Nos/resources/views/engineer_card/form.blade.php",
+		"/I/Nos/resources/views/layouts/includes/navbar.blade.php",
+		"/I/Nos/public/css/companySelect.css",
+		"/I/Nos/resources/views/layouts/includes/barraTop.blade.php",
+		"/I/Nos/public/js/companies.js",
+		"/C/Users/pcGrande/Desktop/Pendientes",
+		"/I/Nos/.env",
+		"/I/Nos/resources/views/project/form.blade.php",
+		"/I/Nos/resources/views/layouts/topbar.blade.php",
+		"/I/Nos/resources/views/company/index.blade.php",
+		"/I/Nos/resources/views/company/form.blade.php",
+		"/I/Nos/resources/views/project/dashboard.blade.php",
+		"/I/Nos/resources/views/project/index.blade.php",
+		"/I/Nos/resources/views/user_story/form.blade.php",
+		"/I/Nos/resources/views/user_story/index.blade.php",
+		"/I/Nos/resources/views/engineer_card_category/form.blade.php",
+		"/I/Nos/resources/views/engineer_card/members.blade.php",
+		"/I/Nos/resources/views/engineer_card/files.blade.php",
+		"/I/Nos/resources/views/engineer_card/files_content.blade.php",
+		"/I/Nos/resources/views/auth/register.blade.php",
+		"/I/Nos/resources/views/auth/passwords/reset.blade.php",
+		"/I/Nos/resources/views/auth/passwords/email.blade.php",
+		"/C/Users/pcGrande/Desktop/arrancaserver",
+		"/I/Nos/resources/views/auth/login.blade.php",
+		"/I/Nos/resources/views/layouts/topIngreso.blade.php",
+		"/I/Nos/resources/views/layouts/app.blade.php",
+		"/I/Nos3/resources/views/auth/register.blade.php",
+		"/I/Nos/resources/views/layouts/includes/topIngreso.blade.php",
+		"/I/Nos/resources/views/tags/form.blade.php",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/pru.html",
+		"/I/Nos/public/js/utils.js",
+		"/I/Nos/public/js/engineerCards.js",
+		"/I/Nos/resources/views/project/files.blade.php",
+		"/I/Nos/resources/views/hour/form.blade.php",
+		"/I/Nos/resources/views/files/index.blade.php",
+		"/I/Nos/resources/views/hour/formData.blade.php",
+		"/I/Nos/resources/views/engineer_card/archive.blade.php",
+		"/I/Nos/resources/views/user/form.blade.php",
+		"/I/Nos/app/UserStoryEnginerCard.php",
+		"/I/Nos/app/EngineerCardUserAssign.php",
+		"/C/Users/pcGrande/Desktop/respaldonav.php",
+		"/C/Users/pcGrande/Desktop/respaldo dashboard.php",
+		"/I/Nos/resources/views/home.blade.php",
+		"/I/Nos/resources/views/layouts/includes/sidebar.blade.php",
+		"/I/Nos/resources/views/layouts/includes/headerCentral.blade.php",
+		"/I/Nos/resources/views/layouts/projectTemplate.blade.php",
+		"/I/Nos/resources/views/layouts/project.blade.php",
+		"/C/Users/pcGrande/Desktop/CSS3Accordion/css/style.css",
+		"/C/Users/pcGrande/Desktop/CSS3Accordion/css/demo.css",
+		"/C/Users/pcGrande/Desktop/respaldonos.php",
+		"/I/Nos/public/css/simple-sidebar.css",
+		"/E/desarrollo/nos/index.html",
+		"/I/Nos/resources/views/user_story_note/form.blade.php",
+		"/E/desarrollo/nos/dashboard.html",
+		"/I/Nos/public/css/login.css",
+		"/C/Users/pcGrande/Desktop/index.html",
+		"/I/Nos/resources/views/engineer_card_note/form.blade.php",
+		"/I/Nos/resources/views/engineer_card_note/form.blade_.php",
+		"/I/Nos/resources/views/engineer_card_note/index.blade.php",
+		"/C/Users/pcGrande/Desktop/not.php",
+		"/C/Users/pcGrande/Desktop/form.blade2.php",
+		"/I/Nos/public/js/engineerCardForm.js",
+		"/I/Nos/resources/views/user_story_engineer_card/form.blade.php",
+		"/I/Nos/resources/views/hour/index.blade.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/style.css",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/footer.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/index.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/inc/customizer.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/template-parts/specials.php",
+		"/I/tcaster/template-parts/nav-social.php",
+		"/I/tcaster/inc/customizer.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/template-parts/menu.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/header.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/functions.php",
+		"/I/tcaster/index.php",
+		"/I/tcaster/single.php",
+		"/I/tcaster/template-parts/content-page.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/inc/custom_post_type.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/template-parts/slide-menu.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/template-parts/content.php",
+		"/I/tcaster/header.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/index.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/functions.php",
+		"/C/Users/pcGrande/Desktop/mario.php",
+		"/C/Users/pcGrande/Desktop/form.blade.php",
+		"/C/Users/pcGrande/Desktop/Home",
+		"/E/marioform.blade.php",
+		"/I/Nos/app/Http/Models/CompanyModel.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/I/nos2/resources/views/user_story/form.blade.php",
+		"/I/Nos/resources/views/user_story_engineer_card/index.blade.php",
+		"/I/Nos/resources/views/layouts/includes/bottomInclude.blade.php",
+		"/I/Nos/routes/web.php",
+		"/I/Nos/resources/views/engineer_card/index.blade_1.php",
+		"/C/php/php.ini-development",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/inc/function-admin.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/style.css",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/404.php",
+		"/I/tcaster/archive.php",
+		"/I/xampp/htdocs/portafolio/Movefile",
+		"/C/Users/pcGrande/Desktop/tp4.m3u",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/inc/templates/theme-admin.php",
+		"/E/desarrollo/tema_portafolio/inc/function_admin.php"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+			"<project>",
+			"I:\\",
+			"I:\\Nos",
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"col-md-2",
+			"1",
+			";\n",
+			"company__modal",
+			"name__project",
+			"col-md-1",
+			"send",
+			"register",
+			"members",
+			"conten",
+			"nav__item",
+			"180px",
+			"panel-title",
+			"etique",
+			"panel",
+			"margin",
+			"box",
+			"central",
+			"48B27E",
+			".central",
+			"ul",
+			"4",
+			"select--corto",
+			"central__contenido__",
+			" nav__item--active",
+			"value",
+			"getUserStoryEngineerCards",
+			"getUserStoryEngineerCards();",
+			"2",
+			"1",
+			"Name",
+			"name",
+			"special-1",
+			"3",
+			"as",
+			"10",
+			"2",
+			"form-group",
+			">\n",
+			"2",
+			"<label for=\"idrisk\" ",
+			"title",
+			"ing__cards",
+			"<div id=\"divUser3\" class=\"col-md-6\" style=\"border: 1px solid;\">",
+			"fff",
+			"loading__loader",
+			".modal-content ",
+			".loading-bar",
+			".loading_content",
+			"notes",
+			"card members",
+			"members",
+			"ssl",
+			"intro_slide",
+			"settings",
+			"temasectionuno",
+			"temasectiondos",
+			"ddd",
+			"margin-right",
+			"espn",
+			"fOX"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "newsletter.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4105,
+								4105
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										4101,
+										4104
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										3976,
+										3979
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1304.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19430,
+								19430
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										19449,
+										19450
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										19408,
+										19409
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 22694.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 428,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								350,
+								350
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5033,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4467,
+								4467
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										4486,
+										4487
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										4466,
+										4467
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1980.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 48.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "portafolio.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "isla",
+		"selected_items":
+		[
+			[
+				"isla",
+				"E:\\Dropbox\\MIS DESARROLLOS\\Isla\\islaproyecto.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
