@@ -41,6 +41,8 @@ function wiltonwings_setup() {
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
+	add_image_size( 'imagen-post-actual', 1280, 400, true );
+	add_image_size( 'imagen-post-anteriores', 400, 300, true );
 
 	// This theme uses wp_nav_menu() in one location.
 	// This theme uses wp_nav_menu() in one location.
@@ -127,6 +129,17 @@ function wiltonwings_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'wiltonwings_scripts' );
+
+function wpdocs_custom_excerpt_length() {
+    return 50;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length' );
+
+
+function new_excerpt_more( $more ) {
+    return '';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
 
 /**
  * Implement the Custom Header feature.

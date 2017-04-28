@@ -1089,7 +1089,7 @@ nav ul li a:visited{
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+	background-image: linear-gradient(to bottom right,#002f4b,#232323);
 	opacity: .7; 
 	height: 332px;
 }
@@ -1124,6 +1124,10 @@ nav ul li a:visited{
 	margin-top: 3.5em;
 }
 
+.actual .newsletter__item{
+	margin-top: 2em;
+}
+
 .newsletter__item {
 	border-bottom:1px solid #ccc;
 	padding-bottom: 2em;
@@ -1152,6 +1156,12 @@ nav ul li a:visited{
 	color:#E6A032;
 }
 
+.newsletter__item a:hover{
+	text-decoration: none;
+}
+
+/*anteriores */
+
 .anteriores{
 	margin:2em 0;
 }
@@ -1160,16 +1170,64 @@ nav ul li a:visited{
 	margin-top: 2em;
 }
 
+.anteriores .newsletter__item h3{
+	font-size: 1.5em;
+}
+
+.anteriores .newsletter__item p{
+	font-size: 0.9em;
+}
+
+
+/*Semanas anteriores*/
+
 .semanas__anteriores {
 	margin:2em 0;
 }
 
-.semanas__anteriores .newsletter__item{
-	border-bottom: 0px;
-	margin-top: 2em;
+.semanas__anteriores img{
+	padding-bottom: 2em;
 }
 
+.semanas__anteriores .newsletter__item{
+	border-bottom: 0px;
+	margin-bottom: 10px;
+	padding-bottom: 0px;
+}
 
 .semanas__anteriores .newsletter__item{
 	text-align: center;
+}
+
+.semanas__anteriores .newsletter__item a{
+	border:1px solid #E6A032;
+	border-radius: 3px;
+	padding: 0.2em 1em;
+	-webkit-wmz-transition: 0.2s linear all;
+	-moz-wmz-transition: 0.2s linear all;
+	-ms-wmz-transition: 0.2s linear all;
+	-o-wmz-transition: 0.2s linear all;
+	wmz-transition: 0.2s linear all;
+}
+
+.semanas__anteriores .newsletter__item a:hover{
+	background-color: #2EC4B6;
+	border:#2ec4b6;
+	color:#fff;
+	text-decoration:none;
+}
+
+
+/******** MediaQueries ********/
+
+@media screen and (max-width: 480px){
+	
+	.semanas__anteriores .newsletter__item{
+		margin-bottom: 15px;
+	}
+
+	.semanas__anteriores .newsletter__item a{
+		padding: 0.2em 0.5em;
+	}
+
 }

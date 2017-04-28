@@ -7,18 +7,31 @@ get_template_part('/template-parts/header', 'newsletter');
 
 ?>
 
+
 <section class="newsletter">					        
 	<div class="container">
 		<div class="row">
 			 <div class="col-md-10 col-md-offset-1"> 
-		        <div class="newsletter__item"> 
-		          <img src="<?php echo get_template_directory_uri(); ?>/img/nuevo.png" alt="nuevo newsletter"> 
-		          <img src="https://unsplash.it/1280/400/?random"> 
-		          <h3>Title de post</h3> 
-		          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero repudiandae consequuntur sint facere nam at ea dolorem doloremque repellendus. Illum sequi molestiae itaque placeat, quas harum id ea. Consequatur, expedita eveniet accusamus excepturi officia soluta magnam. Quam in accusamus impedit, voluptatum quidem nam excepturi cum ad magni, saepe sint deserunt, iure porro nostrum eius vel? Sint in necessitatibus cupiditate ipsam doloremque reiciendis cumque ducimus minus id, temporibus omnis ab dolore labore beatae esse dolor earum itaque repellendus tempore sit nobis rerum architecto illum! </p> 
-		
-		          <a href="#">Leer mas.</a> 
-		        </div> 
+			 	<div class="actual">
+			 		<img src="<?php echo get_template_directory_uri(); ?>/img/nuevo.png" alt="nuevo newsletter"> 
+			 		<?php 
+					$args = array( 'post_type' => 'boletin', 'posts_per_page' => 1 );
+					$loop = new WP_Query( $args );
+
+					if ( $loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post(); ?>
+				 	<!-- post -->
+			        <div class="newsletter__item"> 
+		           		<?php the_post_thumbnail($size ='imagen-post-actual'); ?>
+			            <a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3> </a>
+			            <p><?php the_excerpt(); ?></p> 
+			            <a href="<?php the_permalink(); ?>">Leer mas.</a> 
+			        </div> 
+					<?php endwhile; ?>
+					<!-- post navigation -->
+					<?php else: ?>
+					<!-- no posts found -->
+					<?php endif; ?>
+			 	</div> 
       		</div>   
 		</div>
 
@@ -27,14 +40,25 @@ get_template_part('/template-parts/header', 'newsletter');
 				<div class="anteriores">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/anteriores.png" alt="anteriores newsletter">
 					<div class="row">
-						<div class="col-xs-6 col-md-4">
+						<?php 
+						$args = array( 'post_type' => 'boletin', 'posts_per_page' => 3, 'offset' => 1 );
+						$loop = new WP_Query( $args );
+					
+						if ( $loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post(); ?>
+					 	<!-- post -->
+				        <div class="col-xs-6 col-md-4">
 							<div class="newsletter__item">
-								<img src="https://unsplash.it/1280/400/?random">
-								<h3>Title de post</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero repudiandae consequuntur sint facere nam at ea dolorem doloremque repellendus. Illum sequi molestiae itaque placeat, quas harum id ea. Consequatur, expedita eveniet accusamus excepturi officia soluta magnam. Quam in accusamus impedit, voluptatum quidem nam excepturi cum ad magni, saepe sint deserunt, iure porro nostrum eius vel? Sint in necessitatibus cupiditate ipsam doloremque reiciendis cumque ducimus minus id, temporibus omnis ab dolore labore beatae esse dolor earum itaque repellendus tempore sit nobis rerum architecto illum! </p>
-								<a href="#">Leer mas.</a>
+								<?php the_post_thumbnail( $size = 'imagen-post-anteriores'); ?>
+								<a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3> </a>
+					            <p><?php echo get_the_excerpt(); ?></p> 
+					            <a href="<?php the_permalink(); ?>">Leer mas.</a> 
 							</div>
 						</div>
+						<?php endwhile; ?>
+						<!-- post navigation -->
+						<?php else: ?>
+						<!-- no posts found -->
+						<?php endif; ?>						
 					</div>
 				</div>
 			</div>
