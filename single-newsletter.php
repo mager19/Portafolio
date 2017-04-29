@@ -7,8 +7,8 @@ get_template_part('/template-parts/header', 'newsletter');
 
 ?>
 
-
-<section class="newsletter">					        
+<section class="newsletter">
+	        
 	<div class="container">
 		<div class="row">
 			 <div class="col-md-10 col-md-offset-1"> 
