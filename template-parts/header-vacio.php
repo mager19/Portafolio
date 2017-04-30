@@ -33,7 +33,7 @@
 				<?php 
 					$url = home_url('/newsletter');
 				?>	
-				<a href="<?php echo $url; ?>">Newsletter</a>
+				<a href="<?php echo $url; ?>" class="newsletter-link">Newsletter</a>
 			</div>
 		</div>
 	</div>

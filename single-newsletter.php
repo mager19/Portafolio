@@ -31,6 +31,7 @@ get_template_part('/template-parts/header', 'newsletter');
 					<?php else: ?>
 					<!-- no posts found -->
 					<?php endif; ?>
+					<?php wp_reset_postdata(); ?>
 			 	</div> 
       		</div>   
 		</div>
@@ -46,7 +47,7 @@ get_template_part('/template-parts/header', 'newsletter');
 					
 						if ( $loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					 	<!-- post -->
-				        <div class="col-xs-6 col-md-4">
+				        <div class="col-xs-4 col-md-4">
 							<div class="newsletter__item">
 								<?php the_post_thumbnail( $size = 'imagen-post-anteriores'); ?>
 								<a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3> </a>
@@ -58,7 +59,8 @@ get_template_part('/template-parts/header', 'newsletter');
 						<!-- post navigation -->
 						<?php else: ?>
 						<!-- no posts found -->
-						<?php endif; ?>						
+						<?php endif; ?>	
+						<?php wp_reset_postdata(); ?>					
 					</div>
 				</div>
 			</div>
@@ -69,66 +71,24 @@ get_template_part('/template-parts/header', 'newsletter');
 				<div class="semanas__anteriores">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/masatras.png" alt="anteriores newsletter">
 					<div class="row">
-						<div class="col-xs-4 col-md-2">
-							<div class="newsletter__item">
-								<a href="#">Semana 13</a>
+						<?php  
+						$args = array( 'post_type' => 'boletin', 'offset' => 4 );
+						$loop = new WP_Query( $args );
+
+						if ( $loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post(); ?>
+						<!-- post -->
+							<div class="col-xs-4 col-md-2">
+								<div class="newsletter__item">
+									<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+								</div>
 							</div>
-						</div>
-						<div class="col-xs-4 col-md-2">
-							<div class="newsletter__item">
-								<a href="#">Semana 13</a>
-							</div>
-						</div>
-						<div class="col-xs-4 col-md-2">
-							<div class="newsletter__item">
-								<a href="#">Semana 13</a>
-							</div>
-						</div>
-						<div class="col-xs-4 col-md-2">
-							<div class="newsletter__item">
-								<a href="#">Semana 13</a>
-							</div>
-						</div>
-						<div class="col-xs-4 col-md-2">
-							<div class="newsletter__item">
-								<a href="#">Semana 13</a>
-							</div>
-						</div>
-						<div class="col-xs-4 col-md-2">
-							<div class="newsletter__item">
-								<a href="#">Semana 13</a>
-							</div>
-						</div>
-						<div class="col-xs-4 col-md-2">
-							<div class="newsletter__item">
-								<a href="#">Semana 13</a>
-							</div>
-						</div>
-						<div class="col-xs-4 col-md-2">
-							<div class="newsletter__item">
-								<a href="#">Semana 13</a>
-							</div>
-						</div>
-						<div class="col-xs-4 col-md-2">
-							<div class="newsletter__item">
-								<a href="#">Semana 13</a>
-							</div>
-						</div>
-						<div class="col-xs-4 col-md-2">
-							<div class="newsletter__item">
-								<a href="#">Semana 13</a>
-							</div>
-						</div>
-						<div class="col-xs-4 col-md-2">
-							<div class="newsletter__item">
-								<a href="#">Semana 13</a>
-							</div>
-						</div>
-						<div class="col-xs-4 col-md-2">
-							<div class="newsletter__item">
-								<a href="#">Semana 13</a>
-							</div>
-						</div>
+						<?php endwhile; ?>
+						<!-- post navigation -->
+						<?php else: ?>
+						<!-- no posts found -->
+						<?php endif; ?>
+						<?php wp_reset_postdata(); ?>				
+						
 					</div>
 				</div>
 			</div>
