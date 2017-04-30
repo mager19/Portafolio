@@ -39,7 +39,7 @@ get_template_part('/template-parts/header', 'newsletter');
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
 				<div class="anteriores">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/anteriores.png" alt="anteriores newsletter">
+					<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/anteriores.png" alt="anteriores newsletter"> -->
 					<div class="row">
 						<?php 
 						$args = array( 'post_type' => 'boletin', 'posts_per_page' => 3, 'offset' => 1 );
@@ -69,7 +69,7 @@ get_template_part('/template-parts/header', 'newsletter');
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
 				<div class="semanas__anteriores">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/masatras.png" alt="anteriores newsletter">
+					<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/masatras.png" alt="anteriores newsletter"> -->
 					<div class="row">
 						<?php  
 						$args = array( 'post_type' => 'boletin', 'offset' => 4 );
