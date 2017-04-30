@@ -26,7 +26,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				Hola Soy <a href="http://twitter.com/mager19" target="_blank">mager19</a> mi sitio aún esta en desarrollo, pero puedes suscribirte por ahora a mi newsletter.
+				Hola Soy <a href="http://twitter.com/mager19" target="_blank">Mager19</a> mi sitio aún esta en desarrollo, pero puedes suscribirte por ahora a mi newsletter.
 			</div>	
 
 			<div class="col-md-12">
