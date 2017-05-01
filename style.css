@@ -1260,7 +1260,7 @@ nav ul li a:visited{
 	.header__newsletter:before {
 	    content: '';
 	    position: absolute;
-	    top: 46px;
+	    top: 0px;
 	}
 }
 
@@ -1296,8 +1296,8 @@ nav ul li a:visited{
 	}
 
 	.newsletter-link {
-        margin-left: 32%;
-    	width: 30%;
+        margin-left: 30%;
+    	width: 40%;
 	}
 
 
