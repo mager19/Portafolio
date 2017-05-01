@@ -36,7 +36,7 @@
 								<div class="col-md-8 col-md-offset-2">
 									<h3><?php the_title(); ?></h3>
 									<p>Suscribete para recibir cada semana los artículos en tu email. <br>La mejor manera de agradecer este esfuerzo es compartiendo, y ayudando a que llegue a mas personas.</p>
-									<a href="#">Suscribirse</a>
+									<a href="http://eepurl.com/cM6h61" target="_blank">Suscribirse</a>
 								</div>
 							</div>
 						</div>
