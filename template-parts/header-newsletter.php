@@ -31,7 +31,7 @@
 						<div class="col-md-8 col-md-offset-2">
 							<h3>Newsletter</h3>
 							<p>Listado de artículos recopilados entre la semana, cada viernes para disfrutarlos el fin de semana. Tematicas: <b>Diseño / Desarrollo web, WordPress, Ux / Ui, contenido geeks en general, videos, podcast</b> y contenido interesante leído entre la semana.</p>
-							<a href="#">Suscribirse</a>
+							<a href="http://eepurl.com/cM6h61" target="_blank">Suscribirse</a>
 						</div>
 					</div>
 				</div>
