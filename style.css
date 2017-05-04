@@ -1085,7 +1085,7 @@ nav ul li a:visited{
 .header__newsletter:before {
     content: '';
 	position: absolute;
-	top: 32px;
+	top: 0px;
 	right: 0;
 	bottom: 0;
 	left: 0;
