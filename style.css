@@ -1082,18 +1082,6 @@ nav ul li a:visited{
 	width: 100%;
 }
 
-.header__newsletter:before {
-    content: '';
-	position: absolute;
-	top: 0px;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background-image: linear-gradient(to bottom right,#002f4b,#000);
-	opacity: .6; 
-	height: 300px;
-  }
-
 .header__contenido__newsletter h3{
 	color:#fff;
 	font-size: 4em;
@@ -1256,12 +1244,6 @@ nav ul li a:visited{
 /******** MediaQueries ********/
 
 @media screen and (max-width:768px){
-
-	.header__newsletter:before {
-	    content: '';
-	    position: absolute;
-	    top: 0px;
-	}
 
 	.header__contenido__newsletter a{
 		font-size: 1.4em;
