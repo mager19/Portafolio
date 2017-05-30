@@ -1070,6 +1070,212 @@ nav ul li a:visited{
 	margin-bottom: 1em;
 }
 
+/*About me*/
+
+.title{
+	font-size: 4em;
+	font-family: 'Titillium Web', sans-serif;
+	padding: 0 0 1em 0;
+	text-align: center;
+}
+
+.aboutme__pictures{
+	overflow: hidden;
+}
+
+.collage {
+	padding: 6px 2px;
+	margin-bottom: 3em;
+}
+
+.contratame{
+	/*background-image: url("../img/contactame.jpg");*/
+	background-size: cover;
+	background-position: top;
+	padding: 2em 0 4em 0;
+	margin-top: 2em;
+}
+
+.contratame h3{
+	color:#f9f9f9;
+	font-size: 3em;
+	padding-top: 0.5em;
+	text-align: center;
+}
+
+.contratame p{
+	color:#f9f9f9!important;
+	font-size: 1em!important;
+	padding: 2em 1em;
+	text-align: center;
+}
+
+.boton__contactme{
+	background-color: #2EC4B6;
+	box-shadow: 0px 3px 0px #037167;
+	color:#f9f9f9;
+	margin-bottom: 2em;
+	-webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    transition: all linear .5s;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.boton__contactme:hover{
+	background-color: #037167;
+	box-shadow: 0px 3px 0px #037167;
+	color:#f9f9f9;
+	text-decoration: none;
+}
+
+.aboutme p{
+	color:#566270;
+	font-size: 1.3em;
+	margin-bottom: 1em;
+}
+
+.aboutme__items{
+	border:1px solid #2EC4B6;
+	margin-top: 3em;
+	padding: 1.5em;
+	margin-top: 3em;
+	
+	text-align: center;
+}
+
+.aboutme__items i{
+	font-size: 3em;
+	color:#2ec4b6;
+}
+
+.aboutme__items h3{
+	
+	font-size: 2em;
+	margin-top: 0.5em;
+
+}
+
+.aboutme__items p{
+	font-size: 1em!important;
+	line-height: 1.5em;
+	margin-top: 1em;
+}
+
+/*Portfolio*/
+
+.portfolio{
+	background-color: #f8f8f8;
+}
+
+.portfolio__item{	 
+	cursor:pointer;
+	height: 100px;
+	overflow: hidden;
+	margin-bottom: 1em;
+	position: relative;
+	-webkit-transition: all linear .8s;
+    -moz-transition: all linear .8s;
+    -o-transition: all linear .8s;
+    transition: all linear .8s;
+}
+
+.portfolio__item:hover{
+	cursor: pointer;
+	background-position: right;
+}
+
+.portfolio__item div{
+	color:#f9f9f9;
+}
+
+.portfolio__item h3{
+	font-size: 2.5em;
+	margin-top: 5px;
+}
+
+.portfolio__item h4 a{
+	color:#2EC4B6;
+	font-size: 1em;
+	font-weight: 700;
+	font-family: 'Titillium Web', sans-serif;
+	letter-spacing: 2px;
+	margin-top: -10px;	
+	text-decoration: none;
+}
+
+ .portfolio__item__contenido{
+ 	cursor: pointer;
+ 	position: absolute;
+ 	top:5%;
+ 	left: 5%;
+ 	width: 100%;
+}
+
+.portfolio__item__contenido p{
+	margin-top: 1em;
+	opacity: 0;
+	width: 90%;
+	-webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -o-transition: all linear .2s;
+    transition: all linear .2s;
+}
+
+.portfolio__item:hover p{
+	opacity: 1;
+}
+
+.portfolio__item--small{
+	cursor: pointer;
+	margin-bottom: 1em;
+	overflow: hidden;
+	position: relative;
+}
+
+.portafolio__item--small img{
+	border:none;
+    padding:0;
+    margin:0;
+    width:100%;
+    height:auto;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    transition: all linear .4s;
+}
+
+.portafolio__item--small:hover img{
+	cursor: pointer;
+	opacity: 0.8;
+
+}
+
+.portafolio__item--small__contenido{ 
+ 	position: absolute;
+ 	top:23%;
+ 	left: 10%;
+ 	width: 80%;
+}
+
+.portafolio__item--small__contenido h3{
+	color:#f9f9f9;
+	font-weight: 700;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:2em;
+	line-height: 1em;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
 /*Header newsletter*/
 
 .header__newsletter{
@@ -1214,15 +1420,6 @@ nav ul li a:visited{
 	margin:1em 0;
 	padding: 1.5em 1em;
 
-}
-
-.home{
-	padding-bottom: 1em;
-	text-align: center;
-}
-
-.home a{
-	color:#2EC4B6;
 }
 
 .vacio{

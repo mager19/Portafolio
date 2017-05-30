@@ -43,6 +43,7 @@ function wiltonwings_setup() {
 	add_theme_support( 'post-thumbnails' );
 	add_image_size( 'imagen-post-actual', 1280, 400, true );
 	add_image_size( 'imagen-post-anteriores', 400, 300, true );
+	add_image_size( 'imagen-portafolio-destacada', 1280, 100, true );
 
 	// This theme uses wp_nav_menu() in one location.
 	// This theme uses wp_nav_menu() in one location.

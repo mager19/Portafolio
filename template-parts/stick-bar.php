@@ -19,13 +19,13 @@
 
 			<div class="col-md-2 col-xs-2 social__stick__item">
 				<a href="#">
-					<i class="icon-behance" ></i><span>Behance</span>
+					<i class="icon-behance"></i><span>Behance</span>
 				</a>				
 			</div>
 
 			<div class="col-md-2 col-xs-2 social__stick__item">
 				<a href="#">
-					<i class="icon-twitter" ></i><span>Twitter</span>
+					<i class="icon-twitter"></i><span>Twitter</span>
 				</a>				
 			</div>
 
@@ -37,7 +37,7 @@
 
 			<div class="col-md-2 col-xs-2 social__stick__item">
 				<a href="#">
-					<i class="icon-medium" ></i><span>Medium</span>
+					<i class="icon-medium"></i><span>Medium</span>
 				</a>				
 			</div>
 
