@@ -125,7 +125,7 @@ get_header(); ?>
 <!-- /Acerca de mi -->
 
 <!-- Portfolio -->
-<section class="contenedor portfolio">
+<section class="contenedor portfolio" id="portafolio">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
