@@ -69,7 +69,7 @@ get_header(); ?>
 				<div class="col-md-4 ">
 					<div class="contratame" style="background-image:url(<?php echo get_template_directory_uri() ?>/img/contactame.jpg);">
 						<h3>Hablemos</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam qui debitis consequuntur magni! Atque minima ad vel blanditiis. Sed optio, tempora laborum unde eum in quidem ex dolorem perspiciatis eaque.</p>
+						<p>Cuentame de que se trata tu proyecto, que tienes en mente, cual es tu objetivo, y recibiras un presupuesto estimado del costo del desarrollo, todo a medida de acuerdo a tu necesidad.</p>
 						<a href="#" class="boton boton__contactme">Contactame!</a>
 					</div>
 				</div>
