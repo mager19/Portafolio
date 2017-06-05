@@ -28,10 +28,10 @@ get_header(); ?>
 				$loop = new WP_Query( $args );
 
 				if ( $loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post(); ?>
-					<?php $var1 = get_field('imagen_1',10);
-						  $var2 = get_field('imagen_2',10);
-						  $var3 = get_field('imagen_3',10);
-						  $var4 = get_field('imagen_4',10);
+					<?php $var1 = get_field('imagen_1',43);
+						  $var2 = get_field('imagen_2',43);
+						  $var3 = get_field('imagen_3',43);
+						  $var4 = get_field('imagen_4',43);
 				    ?>
 					
 					<div class="row">
@@ -68,9 +68,9 @@ get_header(); ?>
 			<div class="col-md-12">
 				<div class="col-md-4 ">
 					<div class="contratame" style="background-image:url(<?php echo get_template_directory_uri() ?>/img/contactame.jpg);">
-						<h3>Hire Me</h3>
+						<h3>Hablemos</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam qui debitis consequuntur magni! Atque minima ad vel blanditiis. Sed optio, tempora laborum unde eum in quidem ex dolorem perspiciatis eaque.</p>
-						<a href="#" class="boton boton__contactme">Contact Me!</a>
+						<a href="#" class="boton boton__contactme">Contactame!</a>
 					</div>
 				</div>
 
