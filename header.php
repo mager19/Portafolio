@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package wiltonwings
+ * @package portafolio
  */
 
 ?><!DOCTYPE html>
@@ -21,7 +21,7 @@
 
 <body <?php body_class(); ?>>
 <!-- Header -->
-<header  style="background-image: url(<?php echo( get_header_image() ); ?>); background-size: cover;">
+<header  style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(<?php echo( get_header_image() ); ?>); background-size: cover;">
 	<!-- Nav -->
 	<nav>
 		<div class="container">
