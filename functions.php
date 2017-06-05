@@ -43,6 +43,9 @@ function wiltonwings_setup() {
 	add_theme_support( 'post-thumbnails' );
 	add_image_size( 'imagen-post-actual', 1280, 400, true );
 	add_image_size( 'imagen-post-anteriores', 400, 300, true );
+	add_image_size( 'imagen-portafolio-destacada', 1280, 100, true );
+	add_image_size( 'imagen-portafolio-secundaria', 600, 200, true );
+	add_image_size( 'imagen-post-testimonio', 1280, 550, true );
 
 	// This theme uses wp_nav_menu() in one location.
 	// This theme uses wp_nav_menu() in one location.
@@ -112,14 +115,18 @@ function wiltonwings_scripts() {
 	wp_enqueue_style( 'portafolio-style', get_stylesheet_uri() );
 
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
+	wp_enqueue_style( 'slick', get_template_directory_uri() . '/css/slick.css' );
 	wp_enqueue_style( $handle, $src, $deps, $ver, $media );
 	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Hind|Titillium+Web', false );
 	
 	wp_enqueue_script( 'wiltonwings-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'bootstrapjs', get_template_directory_uri() . '/js/bootstrap.min.js', array(), false, 'all' );
-	wp_enqueue_script( 'scroll', get_template_directory_uri() . '/js/jquery-scrolltofixed-min.js', array(), true, 'all' );
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', array(), true, 'all' );
+	wp_enqueue_script( 'slick-js', get_template_directory_uri() . '/js/slick.min.js', array(), false, 'all' );	
+	wp_enqueue_script( 'scroll', get_template_directory_uri() . '/js/jquery-scrolltofixed-min.js', array(), true, 'all' );
+
+	wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js');
 
 
 	wp_enqueue_script( 'wiltonwings-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
