@@ -62,11 +62,7 @@ get_header(); ?>
 				 <?php wp_reset_postdata(); ?>			
 			</div>
 			<div class="col-md-12">
-				<p>Hi, I am <span>mager19</span>, Frontend Developed, who loves to work with passion. I am currently living in Florencia, Italia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima assumenda harum consequatur dignissimos molestias pariatur dolore reiciendis tenetur, qui corporis.</p>
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ex consequatur aliquid rem perspiciatis. Laborum repudiandae harum eveniet voluptates! Et minima, deserunt eum ut excepturi alias explicabo voluptatem, voluptate eius magnam porro asperiores, hic iure reiciendis inventore nemo earum. Dolore repudiandae, culpa illo sequi temporibus. Labore maxime numquam dignissimos, culpa autem fugit minima, maiores dolore quidem. Vitae expedita assumenda adipisci unde impedit ad porro odit deleniti quos cumque ipsam iste ullam animi velit at sint nulla, ipsum veritatis, laudantium ducimus! Quos ipsa totam nostrum in commodi accusamus aut fugiat numquam beatae, hic, eius explicabo illum minus. Esse laborum ratione facere!</p>
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, aut reprehenderit. Amet similique dignissimos aspernatur assumenda dicta provident suscipit ipsam ipsum adipisci sit quas corporis quam, totam ea iusto doloremque tenetur, porro harum voluptatum eveniet et, consequatur! Id, aliquam enim?</p>
+				<p><?php the_content(); ?></p>
 			</div>
 
 			<div class="col-md-12">
