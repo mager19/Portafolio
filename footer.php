@@ -19,7 +19,7 @@
 				<h2 class="title">Contact</h2>
 				<p>Cuentame de que se trata tu proyecto, que tienes en mente, cual es tu objetivo, y recibiras un presupuesto estimado del costo del desarrollo, todo a medida de acuerdo a tu necesidad.</p>	
 				<div class="formulario">
-					<?php echo do_shortcode('[contact-form-7 id="84" title="Formulario de contacto 1"]' ); ?>
+					<?php echo do_shortcode('[contact-form-7 id="85" title="Formulario de contacto home"]' ); ?>
 				</div>				
 			</div>
 		</div>
