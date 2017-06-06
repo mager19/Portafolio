@@ -19,7 +19,7 @@ get_header(); ?>
 <!-- /Stickbar -->
 
 <!-- Acerca de mi -->
-<section class="contenedor" id="aboutme">
+<section class="contenedor aboutme" id="aboutme">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 aboutme__pictures">
