@@ -1636,7 +1636,10 @@ body > div.rc-anchor.rc-anchor-compact.rc-anchor-light{
 	.boton__header {
         width: 50%;
 	}
-
+	
+	.contacto input[type=submit] {
+   	    text-align: center;
+	}
 
 
 }
