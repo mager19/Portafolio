@@ -1202,7 +1202,7 @@ nav ul li a:visited{
 
 .portafolio__item a:hover{
 	color:#fff;
-	text-decoration: none;
+	text-decoration: none!important;
 }
 
 .portfolio__item h3 {
