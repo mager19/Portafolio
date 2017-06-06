@@ -12,7 +12,7 @@
 ?>
 
 <!-- Footer -->
-<footer class="contenedor" id="contacto">
+<footer class="contenedor contacto" id="contacto">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
