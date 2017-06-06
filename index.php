@@ -225,7 +225,7 @@ get_header(); ?>
 						</h4>
 						<h3><?php echo $nombreContacto; ?></h3>
 						<p><?php echo wp_trim_words( $testimonio, 30, ' . . .' ); ?></p>
-						<a href="<?php the_permalink(); ?>" class="boton boton__testimonial">Case Study</a>
+						<a href="<?php the_permalink(); ?>" class="boton boton__testimonial">Caso de Estudio</a>
 					</div>
 
 					<div class="hidden-xs col-md-8 sinpadding testimonial__right" style="background-image: url(<?php echo the_post_thumbnail_url( $size = 'imagen-post-testimonio' );?>);  height:463px; background-size: cover; ">
