@@ -1499,7 +1499,7 @@ footer p {
 	text-align: center;
 }
 
-.rc-anchor-compact{
+body > div.rc-anchor.rc-anchor-compact.rc-anchor-light{
 	width: 100%!important;
 	text-align: center!important;
 }
