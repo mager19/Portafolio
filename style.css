@@ -1489,6 +1489,16 @@ footer p {
 	text-decoration: none;
 }
 
+#wpcf7-f85-o1 > form > div.wpcf7-form-control-wrap > div > div{
+	text-align: center;
+	width: 100%;
+}
+
+.rc-anchor-compact{
+	width: 100%!important;
+	text-align: center!important;
+}
+
 
 .detalle{
   	background-color: #2EC4B6;
