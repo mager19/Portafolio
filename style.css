@@ -1200,7 +1200,7 @@ nav ul li a:visited{
 	text-decoration: none;
 }
 
-.portafolio__item a:hover{
+.portafolio__item__contenido a:hover{
 	color:#fff;
 	text-decoration: none!important;
 }
