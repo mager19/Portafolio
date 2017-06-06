@@ -228,7 +228,7 @@ get_header(); ?>
 						<a href="<?php the_permalink(); ?>" class="boton boton__testimonial">Case Study</a>
 					</div>
 
-					<div class="hidden-xs col-md-8 sinpadding testimonial__right" style="background-image: url(<?php echo the_post_thumbnail_url( $size = 'imagen-post-testimonio' );?>);  height:463px; ">
+					<div class="hidden-xs col-md-8 sinpadding testimonial__right" style="background-image: url(<?php echo the_post_thumbnail_url( $size = 'imagen-post-testimonio' );?>);  height:463px; background-size: cover; ">
 						
 					</div>
 				</div>
