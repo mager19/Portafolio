@@ -1464,7 +1464,6 @@ footer p {
 
 .contacto textarea{
 	margin-top: 1em!important;
-	margin-bottom: 2em!important;
 	padding-top:1em!important;
 }
 
@@ -1480,6 +1479,7 @@ footer p {
     -o-transition: all linear .5s;
     transition: all linear .5s;
     text-align: left;
+    margin-top: 1em;
  }
 
 .contacto input[type=submit]:hover{
