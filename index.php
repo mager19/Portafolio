@@ -86,7 +86,7 @@ get_header(); ?>
 						<div class="col-md-4 col-xs-6">
 							<div class="aboutme__items">
 								<span class="icon-wordpress"></span>
-								<h3>Wordpress</h3>
+								<h3>WordPress</h3>
 							</div>
 						</div>
 

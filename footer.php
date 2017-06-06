@@ -17,7 +17,10 @@
 		<div class="row">
 			<div class="col-md-12">
 				<h2 class="title">Contact</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad sit corporis nihil voluptas quidem ipsam, numquam iure cumque tempore minima, minus quod non repellendus, velit, fugit odio quaerat vero accusantium?</p>					
+				<p>Cuentame de que se trata tu proyecto, que tienes en mente, cual es tu objetivo, y recibiras un presupuesto estimado del costo del desarrollo, todo a medida de acuerdo a tu necesidad.</p>	
+				<div class="formulario">
+					<?php echo do_shortcode('[contact-form-7 id="84" title="Formulario de contacto 1"]' ); ?>
+				</div>				
 			</div>
 		</div>
 	</div>
