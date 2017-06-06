@@ -1625,10 +1625,12 @@ body > div.rc-anchor.rc-anchor-compact.rc-anchor-light{
 
 	footer input, #footer textarea {
    	    margin-bottom: 1em;
+   	    width: 100%;
 	}
 
 	footer textarea {
    	    margin-top: 0em;
+   	    width: 100%;
 	}
 
 	.boton__header {
@@ -1636,5 +1638,14 @@ body > div.rc-anchor.rc-anchor-compact.rc-anchor-light{
 	}
 
 
+
+}
+
+
+@media screen and (max-width: 380px){
+
+	header h1 {
+	    font-size: 2em;
+	}
 
 }
