@@ -1313,6 +1313,14 @@ a:focus, a:hover {
 	text-decoration: none;
 }
 
+.header__contenido__case h2{
+	color:#fff;
+	font-size: 4em;
+	margin-top: 0.3em;
+}
+
+
+
 .newsletter{
 	margin-top: 3.5em;
 }
@@ -1352,6 +1360,20 @@ a:focus, a:hover {
 .newsletter__item a:hover{
 	text-decoration: none;
 }
+
+/*Header case*/
+
+.header__case{
+	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  	background-position: center;
+  	font-family: 'Hind', sans-serif;
+	min-height: 150px;
+	height: 150px;
+	padding-top: 1.5em;
+	text-align: center;
+	width: 100%;
+}
+
 
 /*anteriores */
 
