@@ -414,90 +414,6 @@ table {
 	width: 100%;
 }
 
-/*--------------------------------------------------------------
-# Forms
---------------------------------------------------------------*/
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
-	border-radius: 3px;
-	background: #e6e6e6;
-	color: rgba(0, 0, 0, .8);
-	font-size: 12px;
-	font-size: 0.75rem;
-	line-height: 1;
-	padding: .6em 1em .4em;
-}
-
-button:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
-	border-color: #ccc #bbb #aaa;
-}
-
-button:focus,
-input[type="button"]:focus,
-input[type="reset"]:focus,
-input[type="submit"]:focus,
-button:active,
-input[type="button"]:active,
-input[type="reset"]:active,
-input[type="submit"]:active {
-	border-color: #aaa #bbb #bbb;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
-input[type="number"],
-input[type="tel"],
-input[type="range"],
-input[type="date"],
-input[type="month"],
-input[type="week"],
-input[type="time"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="color"],
-textarea {
-	color: #666;
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	padding: 3px;
-}
-
-select {
-	border: 1px solid #ccc;
-}
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
-input[type="number"]:focus,
-input[type="tel"]:focus,
-input[type="range"]:focus,
-input[type="date"]:focus,
-input[type="month"]:focus,
-input[type="week"]:focus,
-input[type="time"]:focus,
-input[type="datetime"]:focus,
-input[type="datetime-local"]:focus,
-input[type="color"]:focus,
-textarea:focus {
-	color: #111;
-}
-
-textarea {
-	width: 100%;
-}
 
 /*--------------------------------------------------------------
 # Navigation
@@ -1200,10 +1116,20 @@ nav ul li a:visited{
 	text-decoration: none;
 }
 
+a:focus, a:hover {
+    text-decoration: none!important;
+}
+
+.portafolio__item__contenido a:hover{
+	color:#fff;
+	text-decoration: none!important;
+}
+
 .portfolio__item h3 {
 	color: #fff;
 	font-size: 2.3em;
 	margin-top: 10px;
+	text-decoration: none;
 }
 
 .portfolio__item h4 a{
@@ -1285,7 +1211,8 @@ nav ul li a:visited{
 .testimonial__left{
 	background-color: #313133;
 	color:#fff;
-	padding: 11.1em 3em!important;
+	padding: 8em 3em!important;
+	height: 463px;
 }
 
 .sinpadding{
@@ -1386,6 +1313,14 @@ nav ul li a:visited{
 	text-decoration: none;
 }
 
+.header__contenido__case h2{
+	color:#fff;
+	font-size: 4em;
+	margin-top: 0.3em;
+}
+
+
+
 .newsletter{
 	margin-top: 3.5em;
 }
@@ -1425,6 +1360,20 @@ nav ul li a:visited{
 .newsletter__item a:hover{
 	text-decoration: none;
 }
+
+/*Header case*/
+
+.header__case{
+	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  	background-position: center;
+  	font-family: 'Hind', sans-serif;
+	min-height: 150px;
+	height: 150px;
+	padding-top: 1.5em;
+	text-align: center;
+	width: 100%;
+}
+
 
 /*anteriores */
 
@@ -1519,43 +1468,62 @@ footer p {
 	text-align: center;
 }
 
-footer form{
+.contacto form{
 	font-family: 'Titillium Web', sans-serif;
 	padding-top: 5em;
 }
 
-footer input, footer textarea{
-	border:1px solid #ccc;
-	padding: 0.5em 2em;
-	width: 100%;
+.contacto label{
+	color:#333;
+	font-weight: 200;
 }
 
-footer textarea{
-	margin-top: 1em;
-	margin-bottom: 2em;
-	padding-top:1em;
+.contacto input, .contacto textarea{
+	border:1px solid #ccc!important;
+	padding: 0.5em 2em!important;
+
 }
 
- .boton__footer {
+.contacto textarea{
+	margin-top: 1em!important;
+	padding-top:1em!important;
+}
+
+ .contacto input[type=submit] {
     background-color: #2EC4B6;
     box-shadow: 0px 3px 0px #037167;
+    border-radius: 5px;
     color: #f9f9f9;
-    padding: 0.5em 3em;
+    padding: 0.5em 3em!important;
     margin-bottom: 2em;
     -webkit-transition: all linear .5s;
     -moz-transition: all linear .5s;
     -o-transition: all linear .5s;
     transition: all linear .5s;
     text-align: left;
-    margin-top: 10em;
+    margin-top: 1em;
+ }
 
-}
-
-.boton__footer:hover{
+.contacto input[type=submit]:hover{
 	background-color: #037167;
-	box-shadow: 0px 3px 0px #037167;
+	box-shadow: 0px 0px 0px #037167;
 	color:#f9f9f9;
 	text-decoration: none;
+}
+
+#wpcf7-f85-o1 > form > div.wpcf7-form-control-wrap > div > div{
+	text-align: center;
+	width: 100%!important;
+}
+
+#wpcf7-f9-o1 > form > div.wpcf7-form-control-wrap > div > div > div > iframe{
+	width: 300px!important;
+	text-align: center;
+}
+
+body > div.rc-anchor.rc-anchor-compact.rc-anchor-light{
+	width: 100%!important;
+	text-align: center!important;
 }
 
 
@@ -1679,16 +1647,30 @@ footer textarea{
 
 	footer input, #footer textarea {
    	    margin-bottom: 1em;
+   	    width: 100%;
 	}
 
 	footer textarea {
    	    margin-top: 0em;
+   	    width: 100%;
 	}
 
 	.boton__header {
         width: 50%;
 	}
+	
+	.contacto input[type=submit] {
+   	    text-align: center;
+	}
 
 
+}
+
+
+@media screen and (max-width: 380px){
+
+	header h1 {
+	    font-size: 2em;
+	}
 
 }

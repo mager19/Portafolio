@@ -45,7 +45,7 @@ function wiltonwings_setup() {
 	add_image_size( 'imagen-post-anteriores', 400, 300, true );
 	add_image_size( 'imagen-portafolio-destacada', 1280, 100, true );
 	add_image_size( 'imagen-portafolio-secundaria', 600, 200, true );
-	add_image_size( 'imagen-post-testimonio', 1280, 550, true );
+	add_image_size( 'imagen-post-testimonio', 1280, 463, true );
 
 	// This theme uses wp_nav_menu() in one location.
 	// This theme uses wp_nav_menu() in one location.

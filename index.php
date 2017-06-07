@@ -19,7 +19,7 @@ get_header(); ?>
 <!-- /Stickbar -->
 
 <!-- Acerca de mi -->
-<section class="contenedor" id="aboutme">
+<section class="contenedor aboutme" id="aboutme">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 aboutme__pictures">
@@ -70,7 +70,7 @@ get_header(); ?>
 					<div class="contratame" style="background-image:url(<?php echo get_template_directory_uri() ?>/img/contactame.jpg);">
 						<h3>Hablemos</h3>
 						<p>Cuentame de que se trata tu proyecto, que tienes en mente, cual es tu objetivo, y recibiras un presupuesto estimado del costo del desarrollo, todo a medida de acuerdo a tu necesidad.</p>
-						<a href="#" class="boton boton__contactme">Contactame!</a>
+						<a href="#contacto" class="boton boton__contactme">Contactame!</a>
 					</div>
 				</div>
 
@@ -86,7 +86,7 @@ get_header(); ?>
 						<div class="col-md-4 col-xs-6">
 							<div class="aboutme__items">
 								<span class="icon-wordpress"></span>
-								<h3>Wordpress</h3>
+								<h3>WordPress</h3>
 							</div>
 						</div>
 
@@ -225,10 +225,10 @@ get_header(); ?>
 						</h4>
 						<h3><?php echo $nombreContacto; ?></h3>
 						<p><?php echo wp_trim_words( $testimonio, 30, ' . . .' ); ?></p>
-						<a href="<?php the_permalink(); ?>" class="boton boton__testimonial">Case Study</a>
+						<a href="<?php the_permalink(); ?>" class="boton boton__testimonial">Caso de Estudio</a>
 					</div>
 
-					<div class="hidden-xs col-md-8 sinpadding testimonial__right" style="background-image: url(<?php echo the_post_thumbnail_url( $size = 'imagen-post-actual' );?>); background-size:cover; height:550px; background-position: center;">
+					<div class="hidden-xs col-md-8 sinpadding testimonial__right" style="background-image: url(<?php echo the_post_thumbnail_url( $size = 'imagen-post-testimonio' );?>);  height:463px; background-size: cover; ">
 						
 					</div>
 				</div>

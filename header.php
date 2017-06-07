@@ -56,7 +56,7 @@
 					<?php endif; ?>
 					<?php wp_reset_query(); ?>				
 				
-				<a href="#" class="boton boton__header">Contactame!</a>
+				<a href="#contacto" class="boton boton__header">Contactame!</a>
 			</div>
 		</div>
 	</div>
