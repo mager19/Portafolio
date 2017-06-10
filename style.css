@@ -913,6 +913,7 @@ nav ul li a:visited{
 }
 
 .header__contenido h3{
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 3.5em;
 	margin-bottom: 1em;
 }
@@ -1003,6 +1004,7 @@ nav ul li a:visited{
 	font-size: 4em;
 	font-family: 'Titillium Web', sans-serif;
 	padding: 0 0 1em 0;
+	margin-top: 0px;
 	text-align: center;
 }
 
@@ -1459,6 +1461,10 @@ a:focus, a:hover {
 
 /*footer*/
 
+footer{
+	background-color: #f9f9f9;
+}
+
 footer p {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 1.2em;
@@ -1563,8 +1569,95 @@ body > div.rc-anchor.rc-anchor-compact.rc-anchor-light{
 	font-size: 1.5em;
 	color:#333;
 	margin-top: 5px;
+	padding-right: 10px;
 }
 
+.case__study--right{
+	margin-top: -2.5em;
+	padding-left: 2em;
+}
+
+.case__study--right p{
+	padding: 1em 0;
+}
+
+.franja__testimonio{
+	background-color: #2EBDB2;
+	color:#fff;
+	padding: 2em 1em;
+	text-align: justify;
+	margin-bottom: 2.5em;
+}
+
+.franja__testimonio p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.1em;
+	margin-left: 5%;
+	width: 90%;
+}
+
+.franja__testimonio h4{
+	font-weight: 700;
+	text-align: center;
+}
+
+.franja__testimonio img{
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	margin-left: 5em;
+}
+
+.problema h3, .desafio h3, .mi__experiencia h3, .screenshots h3{
+	color:#8A939A;
+	font-size: 2.5em;
+	font-weight: 200;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.problema, .desafio, .mi__experiencia{
+	margin: 2.5em 0;
+}
+
+.nopadding{
+	margin: 0px!important;
+	padding: 0px!important;
+}
+
+.screenshots__item{
+	background-size: cover;
+	height: 400px;
+	cursor:pointer;
+	-webkit-filter: brightness(0.8);
+	-moz-filter: brightness(0.8);
+	-ms-filter: brightness(0.8);
+	filter: brightness(0.8);
+}
+
+.screenshots__item:hover{
+	-webkit-filter: brightness(1);
+	-moz-filter: brightness(1);
+	-ms-filter: brightness(1);
+	filter: brightness(1);
+}
+
+.screenshots .contratame{
+	text-align: center;
+}
+
+.screenshots .contratame h3{
+	color:#fff;
+}
+
+.screenshots .contratame p{
+	margin-left: 10%;
+	width: 80%;
+}
+
+.screenshots .boton__contactme {
+    margin-left: 0%;
+}
 
 
 /******** MediaQueries ********/

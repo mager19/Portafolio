@@ -34,9 +34,14 @@
 								$loop = new WP_Query( $args );
 								
 								if ( $loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post(); ?>
-								
+								<?php 
+									$url = home_url('/');
+						 		?>	
+								<a href="<?php echo $url; ?>">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/home.png" alt="">
+								</a>
 								<h2><?php the_title(); ?></h2>
-							
+								
 								<!-- post -->
 								<?php endwhile; ?>
 								<!-- post navigation -->

@@ -82,24 +82,75 @@ get_template_part('/template-parts/header', 'case');
 									
 					<div class="problema">
 						<h3>Contexto </h3>
-							problema a resolver - objetivos
-							http://www.jordanprice.co/likes.html
+						<?php $contexto = get_field('imagen-contexto'); ?>
+						<img src="<?php echo $contexto[url]; ?>" alt="">
+						<p><?php echo get_field('aresolver'); ?></p>
 					</div>			
-					<?php the_post_thumbnail(); ?>
+					
 					<div class="desafio">
 						<h3>Desafios</h3>
-						contar cuales eran los mayores desafios
+						<?php $desafio = get_field('imagen-desafio'); ?>
+						<img src="<?php echo $desafio[url]; ?>" alt="">
+						<p><?php echo get_field('desafio'); ?></p>
 					</div>
 
-					<div class="franja__testimonio">
-						<h3>franja testimonio</h3> tipo
-						http://www.jordanprice.co/likes.html
+					<div class="mi__experiencia">
+						<h3>Mi Experiencia</h3>
+						<?php the_content(); ?>
 					</div>			
 
+					<div class="franja__testimonio">
+						<div class="row">
+							<div class="col-md-12">
+								<p><?php echo get_field('testimonio'); ?></p>
+								<h4><?php echo get_field('nombre-contacto'); ?></h4>
+							</div>
+						</div>
+					</div>
+
 					<div class="screenshots">
-						https://aerolab.co/xapo
+						<h3>Imagenes</h3>
+						<p>Recopilación de algunas imagenes del proyecto:</p>
+						<div class="row">
+							<?php 
+									$var1 = get_field('imagen-final1');
+									$var2 = get_field('imagen-final2');
+									$var3 = get_field('imagen-final3');
+									$var4 = get_field('imagen-final4');
+								?>
+							<div class="col-md-6 nopadding">
+								<div class="screenshots__item" style="background-image: url(<?php echo $var1['url']; ?>); ">
+								</div>						
+							</div>	
+
+							<div class="col-md-6 nopadding">
+								<div class="screenshots__item" style="background-image: url(<?php echo $var2['url']; ?>); " >
+								</div>						
+							</div>	
+
+							<div class="col-md-6 nopadding">
+								<div class="screenshots__item" style="background-image: url(<?php echo $var3['url']; ?>); ">
+								</div>						
+							</div>	
+							
+							<div class="col-md-6 nopadding">
+								<div class="screenshots__item" style="background-image: url(<?php echo $var4['url']; ?>); ">
+								</div>						
+							</div>	
+
+							<div class="col-md-12 nopadding ">
+								<div class="contratame" style="background-image:url(<?php echo get_template_directory_uri() ?>/img/contactame.jpg);">
+									<h3>Hablemos</h3>
+									<p>Cuentame de que se trata tu proyecto, que tienes en mente, cual es tu objetivo, y recibiras un presupuesto estimado del costo del desarrollo, todo a medida de acuerdo a tu necesidad.</p>
+									<a href="#contacto" class="boton boton__contactme">Contactame!</a>
+								</div>
+							</div>
+													
+						</div>
+						
 					</div>
 				</div>
+
 			</div>
 			<?php endwhile; ?>
 			<!-- post navigation -->
@@ -114,4 +165,4 @@ get_template_part('/template-parts/header', 'case');
 
 
 <?php 
-get_template_part('/template-parts/footer', 'portafolio');?>
+get_template_part('/template-parts/footer', 'item__portafolio');?>
