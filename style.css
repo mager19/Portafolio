@@ -1630,6 +1630,7 @@ body > div.rc-anchor.rc-anchor-compact.rc-anchor-light{
 
 .screenshots__item{
 	background-size: cover;
+	background-position: center;
 	height: 400px;
 	cursor:pointer;
 	-webkit-filter: brightness(0.8);
