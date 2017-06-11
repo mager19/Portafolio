@@ -1578,6 +1578,9 @@ body > div.rc-anchor.rc-anchor-compact.rc-anchor-light{
 }
 
 .case__study--right p{
+	font-size: 1.1em;
+	line-height: 1.5em;
+	letter-spacing: 1px;
 	padding: 1em 0;
 }
 
