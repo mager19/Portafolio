@@ -70,7 +70,7 @@ get_template_part('/template-parts/header', 'case');
 							</div>
 							<div class="col-md-10">
 								<h3>Enlace de Contacto</h3>
-								<h4><?php get_field('info-contacto'); ?> </h4>
+								<a href="mailto:<?php echo get_field('info-contacto'); ?>" target="_blank"><?php echo get_field('info-contacto'); ?></a>
 							</div>
 						</div>
 					</div>
