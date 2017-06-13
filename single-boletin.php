@@ -39,4 +39,4 @@ get_template_part('/template-parts/header', 'boletin');?>
 
 
 <?php 
-	get_template_part('/template-parts/footer', 'item__portafolio');?>S
+	get_template_part('/template-parts/footer', 'item__portafolio');?>
