@@ -11,9 +11,7 @@ get_template_part('/template-parts/header', 'case');
 	<div class="container">
 		<div class="row">
 			<?php 
-			$args = array( 'post_type' => 'portafolio', 'posts_per_page' => 1);
-			$loop = new WP_Query( $args );
-			if ( $loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post(); ?>
+			while ( have_posts() ) : the_post(); ?>
 			<!-- post -->
 			<!-- case__study -->
 			<div class="col-md-3">
@@ -70,7 +68,7 @@ get_template_part('/template-parts/header', 'case');
 							</div>
 							<div class="col-md-10">
 								<h3>Enlace de Contacto</h3>
-								<h4>@velvor </h4>
+								<a href="mailto:<?php echo get_field('info-contacto'); ?>" target="_blank"><?php echo get_field('info-contacto'); ?></a>
 							</div>
 						</div>
 					</div>
@@ -153,10 +151,7 @@ get_template_part('/template-parts/header', 'case');
 
 			</div>
 			<?php endwhile; ?>
-			<!-- post navigation -->
-			<?php else: ?>
-			<!-- no posts found -->
-			<?php endif; ?>
+					
 			<?php wp_reset_postdata(); ?>
 			
 		</div>

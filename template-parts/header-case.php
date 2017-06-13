@@ -30,10 +30,8 @@
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
 							<?php
-								$args = array( 'post_type' => 'portafolio', 'posts_per_page' => 1 );
-								$loop = new WP_Query( $args );
-								
-								if ( $loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post(); ?>
+															
+								while ( have_posts() ) : the_post(); ?>
 								<?php 
 									$url = home_url('/');
 						 		?>	
@@ -45,9 +43,6 @@
 								<!-- post -->
 								<?php endwhile; ?>
 								<!-- post navigation -->
-								<?php else: ?>
-								<!-- no posts found -->
-								<?php endif; ?>
 								<?php wp_reset_postdata(); ?>	
 						</div>
 					</div>

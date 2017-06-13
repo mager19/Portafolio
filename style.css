@@ -1578,7 +1578,10 @@ body > div.rc-anchor.rc-anchor-compact.rc-anchor-light{
 }
 
 .case__study--right p{
-	padding: 1em 0;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	letter-spacing: 1px;
+	padding: 0.5em 0;
 }
 
 .franja__testimonio{
@@ -1627,6 +1630,7 @@ body > div.rc-anchor.rc-anchor-compact.rc-anchor-light{
 
 .screenshots__item{
 	background-size: cover;
+	background-position: center;
 	height: 400px;
 	cursor:pointer;
 	-webkit-filter: brightness(0.8);
