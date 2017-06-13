@@ -13,7 +13,8 @@ get_template_part('/template-parts/header', 'newsletter');
 		<div class="row">
 			 <div class="col-md-10 col-md-offset-1"> 
 			 	<div class="actual">
-			 		<?php /*<img src="<?php echo get_template_directory_uri(); ?>/img/nuevo.png" alt="nuevo newsletter"> */?>
+			 		<img src="<?php echo get_template_directory_uri(); ?>/img/nuevo.png" alt="nuevo newsletter"> 
+
 			 		<?php 
 					$args = array( 'post_type' => 'boletin', 'posts_per_page' => 1 );
 					$loop = new WP_Query( $args );
@@ -39,7 +40,7 @@ get_template_part('/template-parts/header', 'newsletter');
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
 				<div class="anteriores">
-					<?php /*<img src="<?php echo get_template_directory_uri(); ?>/img/anteriores.png" alt="anteriores newsletter">*/ ?>
+					<img src="<?php echo get_template_directory_uri(); ?>/img/anteriores.png" alt="anteriores newsletter">
 					<div class="row">
 						<?php 
 						$args = array( 'post_type' => 'boletin', 'posts_per_page' => 3, 'offset' => 1 );
@@ -69,7 +70,8 @@ get_template_part('/template-parts/header', 'newsletter');
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
 				<div class="semanas__anteriores">
-					<?php /*<img src="<?php echo get_template_directory_uri(); ?>/img/masatras.png" alt="anteriores newsletter">*/ ?>
+					<img src="<?php echo get_template_directory_uri(); ?>/img/masatras.png" alt="anteriores newsletter">
+					
 					<div class="row">
 						<?php  
 						$args = array( 'post_type' => 'boletin', 'offset' => 4 );
