@@ -71,7 +71,7 @@ get_template_part('/template-parts/header', 'newsletter');
 			<div class="col-md-10 col-md-offset-1">
 				<div class="semanas__anteriores">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/masatras.png" alt="anteriores newsletter">
-					
+
 					<div class="row">
 						<?php  
 						$args = array( 'post_type' => 'boletin', 'offset' => 4 );
@@ -98,6 +98,5 @@ get_template_part('/template-parts/header', 'newsletter');
 	</div>
 </section>
 
-
 <?php 
-get_footer();?>
+get_template_part('/template-parts/footer', 'item__portafolio');?>
