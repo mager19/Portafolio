@@ -22,12 +22,8 @@
 <body <?php body_class(); ?>>
 <!-- Header -->
 <?php 
-	$args = array( 'post_type' => 'boletin', 'posts_per_page' => 1 );
-	$loop = new WP_Query( $args );
-
-	if ( $loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post(); ?>
-		<header class="header__newsletter" style="background-image: url(<?php the_post_thumbnail_url( $size = 'imagen-post-actual' ); ?>); background-size: cover;">  
-		 
+	while ( have_posts() ) : the_post(); ?>
+		<header class="header__newsletter" style="background-image: url(<?php the_post_thumbnail_url( $size = 'imagen-post-actual' ); ?>); background-size: cover;">  		 
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -48,7 +44,4 @@
 	<!-- post -->
 	<?php endwhile; ?>
 	<!-- post navigation -->
-	<?php else: ?>
-	<!-- no posts found -->
-	<?php endif; ?>
-
+	
