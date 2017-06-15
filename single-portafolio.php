@@ -7,7 +7,11 @@ get_template_part('/template-parts/header', 'case');
 
 ?>
 
-<section class="contenedor case__study">
+<!-- Stickbar -->
+<?php get_template_part( "/template-parts/stick", "bar" ); ?>
+<!-- /Stickbar -->
+
+<section class="contenedor case__study" style="background-image: url(<?php echo the_post_thumbnail();?>);">
 	<div class="container">
 		<div class="row">
 			<?php 

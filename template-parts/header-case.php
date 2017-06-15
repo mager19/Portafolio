@@ -21,12 +21,12 @@
 
 <body <?php body_class(); ?>>
 <!-- Header -->
-<header class="header__case" >
+<header class="header__case" style="background-image: linear-gradient(rgba(77, 77, 77, 0.4), rgba(0, 0, 0, 0.90)), url(<?php the_post_thumbnail_url( $size = 'imagen-post-actual' ); ?>); background-size: cover;">
 	<!-- End Nav -->
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="header__contenido__case">
+				<div class="header__contenido__case" >
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
 							<?php
