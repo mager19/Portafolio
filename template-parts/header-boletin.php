@@ -26,14 +26,14 @@
 	// $loop = new WP_Query( $args );
 
 	while ( have_posts() ) : the_post(); ?>
-		<header class="header__newsletter" style="background-image: url(<?php the_post_thumbnail_url( $size = 'imagen-post-actual' ); ?>); background-size: cover;">  
+		<header class="header__newsletter" style="background-image:linear-gradient(rgba(77, 77, 77, 0.4), rgba(0, 0, 0, 0.90)), url(<?php the_post_thumbnail_url( $size = 'imagen-post-actual' ); ?>); background-size: cover;">  
 		 
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
 						<div class="header__contenido__newsletter">
 							<div class="row">
-								<div class="col-md-8 col-md-offset-2">
+								<div class="col-md-10 col-md-offset-1">
 									<h3><?php the_title(); ?></h3>
 									<p>Suscribete para recibir cada semana los artículos en tu email. <br>La mejor manera de agradecer este esfuerzo es compartiendo, y ayudando a que llegue a mas personas.</p>
 									<a href="http://eepurl.com/cM6h61" target="_blank">Suscribirse</a>
