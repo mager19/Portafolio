@@ -1476,6 +1476,17 @@ a:focus, a:hover {
 	text-align: center;
 }
 
+.button__back{
+	background-color:#e6a032;
+	border-radius: 5px;
+	color:#fff;
+	padding: 10px 1em;
+}
+
+.home{
+	margin-bottom: 3em;
+}
+
 /*footer*/
 
 footer{

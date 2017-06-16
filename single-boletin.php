@@ -12,8 +12,8 @@ get_template_part('/template-parts/header', 'boletin');?>
 						<?php 
 							$url = home_url('/newsletter');
 				 		?>	
-						<a href="<?php echo $url; ?>">
-							<img src="<?php  echo get_template_directory_uri(); ?>/img/home.png" alt="home mager newsletter"><br>Regresar al inicio
+						<a href="<?php echo $url; ?>" class="button__back">
+							Regresar al inicio
 						</a>
 					</div>
 				</div>	

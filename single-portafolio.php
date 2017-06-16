@@ -11,7 +11,7 @@ get_template_part('/template-parts/header', 'case');
 <?php get_template_part( "/template-parts/stick", "bar" ); ?>
 <!-- /Stickbar -->
 
-<section class="contenedor case__study" style="background-image: url(<?php echo the_post_thumbnail();?>);">
+<section class="contenedor case__study">
 	<div class="container">
 		<div class="row">
 			<?php 
