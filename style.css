@@ -1284,9 +1284,9 @@ a:focus, a:hover {
 .header__newsletter{
   	background-position: center;
   	font-family: 'Hind', sans-serif;
-	min-height: 300px;
-	height: 300px;
-	padding-top: 1.5em;
+	min-height: 340px;
+	height: 340px;
+	padding: 2em 0;
 	text-align: center;
 	width: 100%;
 }
@@ -1309,7 +1309,6 @@ a:focus, a:hover {
 	color:#fff;
 	font-size: 1.2em;
 	padding: 0.5em 2em;
-	margin-top:15%;
 	text-align: center;
 }
 
