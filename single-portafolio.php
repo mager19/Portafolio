@@ -18,70 +18,88 @@ get_template_part('/template-parts/header', 'case');
 			while ( have_posts() ) : the_post(); ?>
 			<!-- post -->
 			<!-- case__study -->
-			<div class="col-md-3">
+			<div class="col-md-3 col-xs-12">
 				<div class="case__study--left">
 					<h2>Información</h2>
-					<div class="case__left__item">
-						<div class="row">
-							<div class="col-md-2">
-								<span class="icon-box"></span>
+					<div class="row">
+						<div class="col-xs-6 col-md-12">
+							<div class="case__left__item">
+								<div class="row">
+									<div class="col-md-2">
+										<span class="icon-box"></span>
+									</div>
+									<div class="col-md-10">
+										<h3>Cliente / Contacto</h3>
+										<h4><?php echo get_field('nombre-contacto'); ?></h4>
+									</div>
+								</div>
 							</div>
-							<div class="col-md-10">
-								<h3>Cliente / Contacto</h3>
-								<h4><?php echo get_field('nombre-contacto'); ?></h4>
+						</div>
+
+						<div class="col-xs-6 col-md-12">
+							<div class="case__left__item">
+								<div class="row">
+									<div class="col-md-2">
+										<span class="icon-box"></span>
+									</div>
+									<div class="col-md-10">
+										<h3>Categorias</h3>
+										<h4><?php the_category(', '); ?></h4>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="case__left__item">
-						<div class="row">
-							<div class="col-md-2">
-								<span class="icon-box"></span>
+					
+					<div class="row">
+						<div class="col-xs-6 col-md-12">
+							<div class="case__left__item">
+								<div class="row">
+									<div class="col-md-2">
+										<span class="icon-box"></span>
+									</div>
+									<div class="col-md-10">
+										<h3>Fecha</h3>
+										<h4><?php echo get_field('fecha'); ?></h4>
+									</div>
+								</div>
 							</div>
-							<div class="col-md-10">
-								<h3>Categorias</h3>
-								<h4><?php the_category(', '); ?></h4>
+						</div>
+
+						<div class="col-xs-6 col-md-12">
+							<div class="case__left__item">
+								<div class="row">
+									<div class="col-md-2">
+										<span class="icon-box"></span>
+									</div>
+									<div class="col-md-10">
+										<h3>Fecha</h3>
+										<h4><?php echo get_field('fecha'); ?></h4>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-6 col-md-12">
+							<div class="case__left__item">
+								<div class="row">
+									<div class="col-md-2">
+										<span class="icon-box"></span>
+									</div>
+									<div class="col-md-10">
+										<h3>Enlace de Contacto</h3>
+										<a href="mailto:<?php echo get_field('info-contacto'); ?>" target="_blank"><?php echo get_field('info-contacto'); ?></a>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="case__left__item">
-						<div class="row">
-							<div class="col-md-2">
-								<span class="icon-box"></span>
-							</div>
-							<div class="col-md-10">
-								<h3>Habilidades Usadas</h3>
-								<h4><?php echo get_field('habilidades'); ?></h4>
-							</div>
-						</div>
-					</div>
-					<div class="case__left__item">
-						<div class="row">
-							<div class="col-md-2">
-								<span class="icon-box"></span>
-							</div>
-							<div class="col-md-10">
-								<h3>Fecha</h3>
-								<h4><?php echo get_field('fecha'); ?></h4>
-							</div>
-						</div>
-					</div>
-					<div class="case__left__item">
-						<div class="row">
-							<div class="col-md-2">
-								<span class="icon-box"></span>
-							</div>
-							<div class="col-md-10">
-								<h3>Enlace de Contacto</h3>
-								<a href="mailto:<?php echo get_field('info-contacto'); ?>" target="_blank"><?php echo get_field('info-contacto'); ?></a>
-							</div>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 
 			<div class="col-md-9">
-				<div class="case__study--right">
-									
+				<div class="case__study--right">									
 					<div class="problema">
 						<h3>Contexto </h3>
 						<?php $contexto = get_field('imagen-contexto'); ?>
@@ -144,7 +162,7 @@ get_template_part('/template-parts/header', 'case');
 								<div class="contratame" style="background-image:url(<?php echo get_template_directory_uri() ?>/img/contactame.jpg);">
 									<h3>Hablemos</h3>
 									<p>Cuentame de que se trata tu proyecto, que tienes en mente, cual es tu objetivo, y recibiras un presupuesto estimado del costo del desarrollo, todo a medida de acuerdo a tu necesidad.</p>
-									<a href="#contacto" class="boton boton__contactme">Contactame!</a>
+									<a href="http://mager19.com#contacto" class="boton boton__contactme">Contactame!</a>
 								</div>
 							</div>
 													

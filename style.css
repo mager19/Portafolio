@@ -1583,7 +1583,7 @@ body > div.rc-anchor.rc-anchor-compact.rc-anchor-light{
 }
 
 .case__left__item{
-	margin: 2em 0;
+	margin: 1.5em 0;
 }
 
 .case__left__item h3{
@@ -1717,6 +1717,13 @@ body > div.rc-anchor.rc-anchor-compact.rc-anchor-light{
     	padding: 7.3em 3em!important;
 	}
 
+	.case__study--right {
+   		margin-top: 2em;
+    	padding-left: 0em;
+	}
+	.case__study--right h3{
+		padding: 1em 0;
+	}
 }
 
 @media screen and (max-width: 480px){
