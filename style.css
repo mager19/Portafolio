@@ -1724,6 +1724,13 @@ body > div.rc-anchor.rc-anchor-compact.rc-anchor-light{
 }
 
 @media screen and (max-width: 480px){
+
+	
+	.header__newsletter{
+		min-height: 360px;
+		height: 360px;
+	}
+
 	nav{
 		text-align: center;
 	}
