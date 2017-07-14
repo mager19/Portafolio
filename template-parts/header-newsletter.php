@@ -31,7 +31,24 @@
 						<div class="col-md-8 col-md-offset-2">
 							<h3>Newsletter</h3>
 							<p>Listado de artículos recopilados entre la semana, cada viernes para disfrutarlos el fin de semana. Tematicas: <b>Diseño / Desarrollo web, WordPress, Ux / Ui, contenido geeks en general, videos, podcast</b> y contenido interesante leído entre la semana.</p>
-							<a href="http://eepurl.com/cM6h61" target="_blank">Suscribirse</a>
+							<!-- Begin MailChimp Signup Form -->
+							<style type="text/css">
+								#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+								/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+								   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+							</style>
+							<div id="mc_embed_signup">
+							<form action="//mager19.us2.list-manage.com/subscribe/post?u=28228fe74db42b36195e22cb3&amp;id=1c6ad79065" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							    <div id="mc_embed_signup_scroll">
+								<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="tunombre@email.com" required>
+							    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_28228fe74db42b36195e22cb3_1c6ad79065" tabindex="-1" value=""></div>
+							    <div class="clear"><input type="submit" value="Inscríbete" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+							    </div>
+							</form>
+							</div>
+
+							<!--End mc_embed_signup-->
 						</div>
 					</div>
 				</div>
