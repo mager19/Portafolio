@@ -35,8 +35,17 @@
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<h3><?php the_title(); ?></h3>
-									<p>Suscribete para recibir cada semana los artículos en tu email. <br>La mejor manera de agradecer este esfuerzo es compartiendo, y ayudando a que llegue a mas personas.</p>
-									<a href="http://eepurl.com/cM6h61" target="_blank">Suscribirse</a>
+									<p>Suscribete para recibir cada semana los artículos en tu email. La mejor manera de agradecer este esfuerzo es compartiendo, y ayudando a que llegue a mas personas.</p>
+									<div id="mc_embed_signup">
+										<form action="//mager19.us2.list-manage.com/subscribe/post?u=28228fe74db42b36195e22cb3&amp;id=1c6ad79065" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+										    <div id="mc_embed_signup_scroll">
+											<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="tunombre@email.com" required>
+										    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+										    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_28228fe74db42b36195e22cb3_1c6ad79065" tabindex="-1" value=""></div>
+										    <div class="clear"><input type="submit" value="Inscríbete" name="subscribe" id="mc-embedded-subscribe" class="button" onClick="ga('send', 'event', { eventCategory: 'Suscribirse', eventAction: 'Clic en boton suscribirse', eventLabel: 'Boton suscribirse'});"></div>
+										    </div>
+										</form>
+									</div>
 								</div>
 							</div>
 						</div>

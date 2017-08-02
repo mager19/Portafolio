@@ -43,7 +43,7 @@
 								<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="tunombre@email.com" required>
 							    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 							    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_28228fe74db42b36195e22cb3_1c6ad79065" tabindex="-1" value=""></div>
-							    <div class="clear"><input type="submit" value="Inscríbete" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+							    <div class="clear"><input type="submit" value="Inscríbete" name="subscribe" id="mc-embedded-subscribe" class="button" onClick="ga('send', 'event', { eventCategory: 'Suscribirse', eventAction: 'Clic en boton suscribirse', eventLabel: 'Boton suscribirse'});"></div>
 							    </div>
 							</form>
 							</div>
